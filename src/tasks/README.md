@@ -11,6 +11,8 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |         |
-|2|         |         |
-|3|         |         |
+|1| task-0-knowledge |         |
+|2| task-1-collected-dataset|         |
+|3| model-1-with-doaa |         |
+|4| model-2-with-kheira |       |
+|5| model-3-with-ashish-and-busayor|     |
