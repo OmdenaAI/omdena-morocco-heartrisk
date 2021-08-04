@@ -1,0 +1,25 @@
+import numpy as np 
+import cv2
+# Read and output RGB image
+img = cv2.imread(r'C:\Users\user\Desktop\Normal1.jpg') 
+
+def salt(img, n):
+    for k in range(n):
+        i = int(np.random.random() * img.shape[1])
+        j = int(np.random.random() * img.shape[0])
+        if img.ndim == 2:
+            img[j,i] = 255
+        elif img.ndim == 3:
+            img[j,i,0]= 255
+            img[j,i,1]= 255
+            img[j,i,2]= 255
+        return img
+result = salt(img, 10)
+median = cv2.medianBlur(result,5)
+
+gray = cv2.cvtColor(median, cv2.COLOR_BGR2GRAY)  
+(thresh, blackAndWhiteImage) = cv2.threshold(gray, 85, 255, cv2.THRESH_BINARY)
+cv2.imshow("orignial", img)
+cv2.imshow('BW_image', blackAndWhiteImage) 
+cv2.waitKey(0)    
+cv2.destroyAllWindows()
