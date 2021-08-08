@@ -13,6 +13,7 @@ Note : Please Follow the below guidelines to create task folders
 |-|-|-|
 |1| task-0-knowledge | Task related the to Project Domain Knowledge        |
 |2| task-1-collected-dataset| Task related to Collecting ECG Image Dataset         |
-|3| model-1-with-doaa |    Task Lead by Doaa to Create 1st Model     |
-|4| model-2-with-kheira |    Task Lead by Kheira to Create 2nd Model   |
-|5| model-3-with-ashish-and-busayor|  Task Lead by Ashish & Busayor to Create 3rd Model   |
+|3| task-2-model-1-with-doaa |    Task Lead by Doaa to Create 1st Model     |
+|4| task-3-model-2-with-kheira |    Task Lead by Kheira to Create 2nd Model   |
+|5| task-4-model-3-with-ashish-and-busayor|  Task Lead by Ashish & Busayor to Create 3rd Model   |
+|6| task-5-data-preprocessing-with-ayoub|  Task Lead by Ayoub to Preprocess Data   |
